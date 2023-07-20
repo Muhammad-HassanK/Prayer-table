@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-famly:'Poppins', sans-serif;
+}
+body{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #23242a;
+    /* background-image: url("mountain.jpg"); */
+}
+table, h2, th, td{
+    border: 1px solid #23242a;
+    /* border-style: groove; */
+    /* border-bottom: 1px solid #00f2ff; */
+    text-align: center;
+    width: auto;
+    border-collapse: collapse;
+    background:transparent #1c1c1c;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    padding: 7px;
+}
+h2{
+    color: #23242a;
+    background: #fff;
+    border-radius: 180px;
+}
+td:hover {
+    color:#23242a ;
+    background-color:#fff;
+    /* border-color: #00f2ff; */
+}
+tr:nth-child(even){
+    background-color: #008b92;
+}
+.today:hover{
+    color: #fff;
+    background: black;
+}
