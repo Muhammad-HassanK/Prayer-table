@@ -9,20 +9,31 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #23242a;
-    /* background-image: url("mountain.jpg"); */
+    background-image: url("islamic.jpg");
+}
+button{
+    text-align: center;
+    width: auto;
+    border-collapse: collapse;
+    background:transparent #1c1c1c;
+    backdrop-filter: blur(30px);
+    border-radius: 180px;
+    padding: 7px;
 }
 table, h2, th, td{
-    border: 1px solid #23242a;
+    border: 1px none;
     /* border-style: groove; */
     /* border-bottom: 1px solid #00f2ff; */
     text-align: center;
     width: auto;
     border-collapse: collapse;
     background:transparent #1c1c1c;
-    backdrop-filter: blur(20px);
-    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    border-radius: 180px;
     padding: 7px;
+}
+table{
+    border-radius: 21px;
 }
 h2{
     color: #23242a;
@@ -35,7 +46,7 @@ td:hover {
     /* border-color: #00f2ff; */
 }
 tr:nth-child(even){
-    background-color: #008b92;
+    background-color:rgb(108, 118, 122);
 }
 .today:hover{
     color: #fff;
